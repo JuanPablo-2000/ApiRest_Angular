@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { switchMap } from 'rxjs/operators';
+import { zip } from 'rxjs';
 
 import { Product, CreateProductDTO, UpdateProductDTO } from '../../models/product.model';
 
@@ -27,6 +29,9 @@ export class ProductsComponent implements OnInit {
     },
     description: ''
   };
+  limit = 10;
+  offset = 0;
+  statusDetail: 'loading' | 'success' | 'error' | 'init' = 'init';
 
   constructor(
     private storeService: StoreService,
@@ -36,7 +41,7 @@ export class ProductsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.productsService.getAllProducts()
+    this.productsService.getAllProducts(10, 0)
     .subscribe(data => {
       this.products = data;
     });
@@ -52,10 +57,30 @@ export class ProductsComponent implements OnInit {
   }
 
   onShowDetail(id: string) {
+    this.statusDetail = 'loading';
+    this.toggleProductDetail();
     this.productsService.getProduct(id)
       .subscribe(data => {
-        this.toggleProductDetail();
         this.productChosen = data;
+        this.statusDetail = 'success';
+      }, errorMsg => {
+        console.log(errorMsg);
+        this.statusDetail = 'error';
+      })
+  }
+
+  readAndUpdate(id: string) {
+    this.productsService.getProduct(id)
+     .pipe(
+       switchMap((product) => this.productsService.update(product.id, { title: 'change' }))
+     )
+     .subscribe(data => {
+      console.log(data);
+     });
+     this.productsService.fetchReadAndUpdate(id, {title: 'change'})
+      .subscribe(response => {
+        const read = response[0];
+        const update = response[1];
       })
   }
 
@@ -65,7 +90,8 @@ export class ProductsComponent implements OnInit {
       description: 'bla bla bla',
       images:  [`https://placeimg.com/640/480/any?random=${Math.random()}`],
       price: 1000,
-      categoryId: 2
+      categoryId: 2,
+
     }
     this.productsService.create(product)
       .subscribe(data => {
@@ -93,6 +119,14 @@ export class ProductsComponent implements OnInit {
         const productIndex = this.products.findIndex(item => item.id === this.productChosen.id);
         this.products.splice(productIndex, 1);
         this.showProductDetail = false;
+      })
+  }
+
+  loadMore() {
+    this.productsService.getAllProducts(this.limit, this.offset)
+      .subscribe(data => {
+        this.products = this.products.concat(data);
+        this.offset += this.limit;
       })
   }
 }
