@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T03:32:23.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="yifpGE0Jq3kLJW6KPLCQ" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-13T23:20:49.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="yFIc-TMx885Ws08B2S8H" version="15.5.2" type="github">
   <diagram id="uRxMmCMWEN8obnBWay-o" name="Page-1">
-    <mxGraphModel dx="1736" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1021" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,7 +21,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-23" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="tYjzfDk_-xagTcZU8rG9-4" target="B-TcR34ZYHO77NCptwwK-3">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-23" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" parent="1" source="tYjzfDk_-xagTcZU8rG9-4" target="B-TcR34ZYHO77NCptwwK-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="430" y="100" />
@@ -32,13 +32,13 @@
         <mxCell id="tYjzfDk_-xagTcZU8rG9-4" value="&lt;font color=&quot;#ffffff&quot;&gt;Creación de Aspirantes&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#00CC66;shadow=1;arcSize=18;" parent="1" vertex="1">
           <mxGeometry x="230" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-6" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tYjzfDk_-xagTcZU8rG9-11" target="B-TcR34ZYHO77NCptwwK-5">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-6" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tYjzfDk_-xagTcZU8rG9-11" target="B-TcR34ZYHO77NCptwwK-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tYjzfDk_-xagTcZU8rG9-11" value="&lt;font color=&quot;#ffffff&quot;&gt;Actualización de Aspirantes&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#00CC66;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-8" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tYjzfDk_-xagTcZU8rG9-13" target="B-TcR34ZYHO77NCptwwK-7">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-8" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tYjzfDk_-xagTcZU8rG9-13" target="B-TcR34ZYHO77NCptwwK-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tYjzfDk_-xagTcZU8rG9-13" value="Eliminación de Aspirantes" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#00CC66;shadow=1;" parent="1" vertex="1">
@@ -47,7 +47,7 @@
         <mxCell id="tYjzfDk_-xagTcZU8rG9-19" value="Datos necesarios&lt;br&gt;- Primer Nombre&lt;br&gt;- Primer Apellido&lt;br&gt;- Fecha nacimiento&lt;br&gt;- Edad&lt;br&gt;- Teléfono&lt;br&gt;- Email&lt;br&gt;- Aspiración salarial&lt;br&gt;- Cargo a aplicar&lt;br&gt;- Hobbies&lt;br&gt;- Lenguajes manejado&lt;br&gt;- Experiencia lenguaje" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
           <mxGeometry x="250" y="120" width="180" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-20" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="B-TcR34ZYHO77NCptwwK-3" target="tYjzfDk_-xagTcZU8rG9-4">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-20" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" parent="1" source="B-TcR34ZYHO77NCptwwK-3" target="tYjzfDk_-xagTcZU8rG9-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="568" y="25" />
@@ -56,29 +56,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-22" value="&lt;p&gt;&lt;font style=&quot;font-size: 13px&quot; color=&quot;#000000&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;" vertex="1" connectable="0" parent="B-TcR34ZYHO77NCptwwK-20">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-22" value="&lt;p&gt;&lt;font style=&quot;font-size: 13px&quot; color=&quot;#000000&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;" parent="B-TcR34ZYHO77NCptwwK-20" vertex="1" connectable="0">
           <mxGeometry x="-0.0861" y="2" relative="1" as="geometry">
             <mxPoint y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-3" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;¿Supera las validaciones del sistema?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=1;fillColor=#B5739D;arcSize=18;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-3" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;¿Supera las validaciones del sistema?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=1;fillColor=#B5739D;arcSize=18;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="515" y="45" width="105" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-29" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#FFFFFF;" edge="1" parent="1" source="B-TcR34ZYHO77NCptwwK-5" target="tYjzfDk_-xagTcZU8rG9-11">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-29" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#FFFFFF;" parent="1" source="B-TcR34ZYHO77NCptwwK-5" target="tYjzfDk_-xagTcZU8rG9-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-30" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="B-TcR34ZYHO77NCptwwK-29">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-30" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FFFFFF;" parent="B-TcR34ZYHO77NCptwwK-29" vertex="1" connectable="0">
           <mxGeometry x="-0.2059" y="-1" relative="1" as="geometry">
             <mxPoint x="-20" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-37" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#FFFFFF;" edge="1" parent="1" source="B-TcR34ZYHO77NCptwwK-5" target="B-TcR34ZYHO77NCptwwK-36">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="B-TcR34ZYHO77NCptwwK-37" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#FFFFFF;" parent="1" source="B-TcR34ZYHO77NCptwwK-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-5" value="&lt;font color=&quot;#ffffff&quot;&gt;¿Supera las validaciones del sistema?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=1;fillColor=#B5739D;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-5" value="&lt;font color=&quot;#ffffff&quot;&gt;¿Supera las validaciones del sistema?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=1;fillColor=#B5739D;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="520" y="345" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Sí&lt;/font&gt;&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B-TcR34ZYHO77NCptwwK-7" target="B-TcR34ZYHO77NCptwwK-13">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Sí&lt;/font&gt;&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="B-TcR34ZYHO77NCptwwK-7" target="B-TcR34ZYHO77NCptwwK-13" edge="1">
           <mxGeometry x="0.3548" y="5" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="575" y="610" />
@@ -87,7 +89,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-35" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=#B5739D;" edge="1" parent="1" source="B-TcR34ZYHO77NCptwwK-7" target="B-TcR34ZYHO77NCptwwK-34">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-35" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=#B5739D;" parent="1" source="B-TcR34ZYHO77NCptwwK-7" target="B-TcR34ZYHO77NCptwwK-34" edge="1">
           <mxGeometry x="0.4595" y="5" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="575" y="810" />
@@ -95,59 +97,48 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-7" value="&lt;font color=&quot;#ffffff&quot;&gt;¿Si se elimina correctamente?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=1;fillColor=#B5739D;strokeColor=#9673a6;fontColor=#B5739D;" vertex="1" parent="1">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-7" value="&lt;font color=&quot;#ffffff&quot;&gt;¿Si se elimina correctamente?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=1;fillColor=#B5739D;strokeColor=#9673a6;fontColor=#B5739D;" parent="1" vertex="1">
           <mxGeometry x="520" y="625" width="110" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-11" value="&lt;font color=&quot;#ffffff&quot;&gt;Se actualiza correctamente el aspirante&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;strokeColor=#9673a6;fillColor=#0066CC;" vertex="1" parent="1">
-          <mxGeometry x="950" y="370" width="120" height="60" as="geometry" />
+        <mxCell id="B-TcR34ZYHO77NCptwwK-11" value="&lt;font color=&quot;#ffffff&quot;&gt;Se actualiza correctamente el aspirante&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;strokeColor=#9673a6;fillColor=#0066CC;" parent="1" vertex="1">
+          <mxGeometry x="740" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-13" value="&lt;font color=&quot;#ffffff&quot;&gt;Se mostrara una ventana flotante indicando que se elimino correctamente&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;strokeColor=#9673a6;fillColor=#0066CC;" vertex="1" parent="1">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-13" value="&lt;font color=&quot;#ffffff&quot;&gt;Se elimino correctamente el aspirante&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;strokeColor=#9673a6;fillColor=#0066CC;" parent="1" vertex="1">
           <mxGeometry x="690" y="550" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tYjzfDk_-xagTcZU8rG9-1" value="&lt;font color=&quot;#ffffff&quot;&gt;Ingreso a la interfaz de creación de aspirantes&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#0066CC;" parent="1" vertex="1">
           <mxGeometry x="30" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-17" value="Los perfiles Administrador y Gestión Humana son los únicos que pueden hacer las siguientes acciones" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-17" value="Los perfiles Administrador y Gestión Humana son los únicos que pueden hacer las siguientes acciones" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="100" y="420" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-28" value="Datos necesarios&lt;br&gt;- Primer Nombre&lt;br&gt;- Primer Apellido&lt;br&gt;- Fecha nacimiento&lt;br&gt;- Edad&lt;br&gt;- Teléfono&lt;br&gt;- Email&lt;br&gt;- Aspiración salarial&lt;br&gt;- Cargo a aplicar&lt;br&gt;- Hobbies&lt;br&gt;- Lenguajes manejado&lt;br&gt;- Experiencia lenguaje" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="260" y="420" width="180" height="180" as="geometry" />
+        <mxCell id="B-TcR34ZYHO77NCptwwK-28" value="Datos necesarios&lt;br&gt;- Primer Nombre&lt;br&gt;- Segundo Nombre&lt;br&gt;- Primer Apellido&lt;br&gt;- Segundo Apellido&lt;br&gt;- Fecha nacimiento&lt;br&gt;- Edad&lt;br&gt;- Teléfono&lt;br&gt;- Email&lt;br&gt;- Aspiración salarial&lt;br&gt;- Cargo a aplicar&lt;br&gt;- Hobbies&lt;br&gt;- Lenguajes manejado&lt;br&gt;- Experiencia lenguaje" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
+          <mxGeometry x="260" y="420" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-32" value="Para eliminar seleccionamos el aspirante que deseamos eliminar presionando el icono de reciclaje" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-32" value="Para eliminar seleccionamos el aspirante que deseamos eliminar presionando el icono de reciclaje" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="270" y="700" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-34" value="&lt;font color=&quot;#ffffff&quot;&gt;Se mostrara una ventana flotante indicando que no se elimino correctamente&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontColor=#B5739D;strokeColor=#9673a6;fillColor=#0066CC;" vertex="1" parent="1">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-34" value="&lt;font color=&quot;#ffffff&quot;&gt;No se elimino correctamente el aspirante&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontColor=#B5739D;strokeColor=#9673a6;fillColor=#0066CC;" parent="1" vertex="1">
           <mxGeometry x="690" y="770" width="135" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-39" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#FFFFFF;" edge="1" parent="1" source="B-TcR34ZYHO77NCptwwK-36" target="B-TcR34ZYHO77NCptwwK-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-36" value="&lt;font color=&quot;#ffffff&quot;&gt;Se mostrara un ventana flotante indicando que se actualizo correctamente&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;strokeColor=#9673a6;fillColor=#00CC66;" vertex="1" parent="1">
-          <mxGeometry x="740" y="370" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-38" value="&lt;b&gt;Sí&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="1">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-38" value="&lt;b&gt;Sí&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="440.004827586207" y="400" as="geometry">
             <mxPoint x="240" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-40" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#FFFFFF;" edge="1" parent="1" target="B-TcR34ZYHO77NCptwwK-43">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-40" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#FFFFFF;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="100" as="sourcePoint" />
+            <mxPoint x="730" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-44" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Sí&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="B-TcR34ZYHO77NCptwwK-40">
+        <mxCell id="B-TcR34ZYHO77NCptwwK-44" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Sí&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#FFFFFF;" parent="B-TcR34ZYHO77NCptwwK-40" vertex="1" connectable="0">
           <mxGeometry x="-0.1606" relative="1" as="geometry">
             <mxPoint x="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-41" value="&lt;font color=&quot;#ffffff&quot;&gt;Se crea correctamente el aspirante&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;strokeColor=#9673a6;fillColor=#0066CC;" vertex="1" parent="1">
-          <mxGeometry x="940" y="70" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-42" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#FFFFFF;" edge="1" parent="1" source="B-TcR34ZYHO77NCptwwK-43" target="B-TcR34ZYHO77NCptwwK-41">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="B-TcR34ZYHO77NCptwwK-43" value="&lt;font color=&quot;#ffffff&quot;&gt;Se mostrara un ventana flotante indicando que se creo correctamente&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;strokeColor=#9673a6;fillColor=#00CC66;" vertex="1" parent="1">
-          <mxGeometry x="730" y="70" width="140" height="60" as="geometry" />
+        <mxCell id="B-TcR34ZYHO77NCptwwK-41" value="&lt;font color=&quot;#ffffff&quot;&gt;Se crea correctamente el aspirante&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;strokeColor=#9673a6;fillColor=#0066CC;" parent="1" vertex="1">
+          <mxGeometry x="730" y="70" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
